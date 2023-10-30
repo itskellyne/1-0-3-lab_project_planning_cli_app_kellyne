@@ -27,7 +27,7 @@ const getUserNumber = () => {
 
 // Primary runner function
 const main = () => {
-  const name =welcomeAndGetName();
+  const name = welcomeAndGetName();
   console.log(`Hello ${name}, nice to meet you!`)
   showOptions();
   const option = getUserNumber().trim();
